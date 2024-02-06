@@ -57,7 +57,7 @@ if clicked:
         ylist.append(country_data[selected_metrics + ' ' + str(2019) + ' %'].iloc[0]*100)
         ylist.append(country_data[selected_metrics + ' ' + str(2020) + ' %'].iloc[0]*100)
         ylist.append(country_data[selected_metrics + ' ' + str(2021) + ' %'].iloc[0]*100)
-        ylist.append(country_data[selected_metrics + ' ' + str(2018) + ' %'].iloc[0]*100)
+        ylist.append(country_data[selected_metrics + ' ' + str(2022) + ' %'].iloc[0]*100)
         ylistmeta.append(ylist)
         ax.plot(x, ylist, label=country)
         for i, txt in enumerate(ylist):
