@@ -62,7 +62,7 @@ if clicked:
         ax.plot(x, ylist, label=country)
         for i, txt in enumerate(ylist):
         # Format the number to two decimal places
-            formatted_txt = "{:.4f}".format(txt)
+            formatted_txt = "{:.2f}".format(txt)
             ax.annotate(formatted_txt, (x[i], ylist[i]), textcoords="offset points", xytext=(0,4), ha='center')
 
     # Set x-axis to display only integers
